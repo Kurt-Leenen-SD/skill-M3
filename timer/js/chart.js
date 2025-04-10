@@ -1,7 +1,7 @@
 const ctx = document.getElementById('chart');
 
 new Chart(ctx, {
-type: 'bar',
+type: 'pie',
 data: {
     labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
     datasets: [{

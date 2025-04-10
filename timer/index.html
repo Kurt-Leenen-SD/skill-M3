@@ -3,8 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="js/chart.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        
         <script src="js/main.js" defer></script>
         <script src="js/plaatje.js"></script>
         
@@ -18,7 +17,7 @@
                 <p class="text">Value: <span id="demo"></span>%</p>
             </div>
             <div class="cards">
-                <img src="images/herfst.jpg" alt="" id="plaatje" height="300rem" width="450rem">
+                <img src="" alt="" id="plaatje" height="300rem" width="450rem">
             </div>
             <div class="cards">
                 <div>
@@ -31,9 +30,10 @@
                 </div>
             </div>
         </div>
-        <div>
-            <canvas id="chart" height="450rem" width="450rem"></canvas>
+        <div class="chart">
+            <canvas id="chart"></canvas>
         </div>   
     </body>
-    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/chart.js"></script>
 </html>

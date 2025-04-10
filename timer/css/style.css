@@ -61,3 +61,9 @@ body {
     cursor: pointer;
 }
 
+.chart{
+    max-width: 45rem;
+    max-height: 45rem;
+    justify-content: center;
+    align-content: center;
+}
