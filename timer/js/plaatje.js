@@ -1,12 +1,12 @@
 fetch('./js/cool.json')
     .then(response => response.json())
     .then(data => {
-        const seasonImage = document.getElementById("plaatje");
+        const Image = document.getElementById("plaatje");
 
 
-        function updateSeasonDisplay(x) {
+        function Display(x) {
             const seasonData = data.files[x]; 
-            seasonImage.src = seasonData.path;
+            Image.src = seasonData.path;
         }
-        updateSeasonDisplay(1);
+        Display(1);
     })
